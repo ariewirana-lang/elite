@@ -13,7 +13,7 @@ const stories = [
     img: coupleStory2,
     names: "David & Mei Lin",
     year: "2022",
-    story: "Both were too busy for traditional dating. Éclat's curated approach connected them over a private dinner — the rest was destiny.",
+    story: "Both were too busy for traditional dating. Lunch Actually's curated approach connected them over a private dinner — the rest was destiny.",
   },
   {
     img: coupleStory3,
