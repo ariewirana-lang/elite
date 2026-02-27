@@ -1,12 +1,11 @@
-import { Heart } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border/30 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
-        <a href="#" className="flex items-center gap-2">
-          <Heart className="h-6 w-6 text-primary" fill="currentColor" />
-          <span className="font-heading text-xl font-semibold text-foreground">Éclat</span>
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="Logo" className="h-8" />
         </a>
         <div className="hidden items-center gap-8 md:flex">
           <a href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About</a>
