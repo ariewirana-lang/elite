@@ -11,9 +11,9 @@ const Navbar = () => {
           <a href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About</a>
           <a href="#journey" className="text-sm text-muted-foreground transition-colors hover:text-foreground">How It Works</a>
           <a href="#stories" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Success Stories</a>
-          <a href="#apply" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Apply</a>
+          <a href="#profile-form" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Apply</a>
         </div>
-        <a href="#apply" className="gold-gradient rounded-md px-5 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">
+        <a href="#profile-form" className="gold-gradient rounded-md px-5 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90">
           Join Now
         </a>
       </div>

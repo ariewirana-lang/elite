@@ -3,7 +3,7 @@ import { Shield, Lock, CheckCircle } from "lucide-react";
 
 const ProfileFormSection = () => {
   return (
-    <section className="section-padding">
+    <section id="profile-form" className="section-padding">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}

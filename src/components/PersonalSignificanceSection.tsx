@@ -21,7 +21,7 @@ const PersonalSignificanceSection = () => {
               Every successful union we facilitate is a testament to the power of intentional, 
               thoughtful matchmaking. Your story deserves to be extraordinary.
             </p>
-            <Button variant="gold" size="lg" className="mt-8">Begin Your Story</Button>
+            <a href="#profile-form"><Button variant="gold" size="lg" className="mt-8">Begin Your Story</Button></a>
           </div>
 
           <div className="grid grid-cols-2 gap-4">

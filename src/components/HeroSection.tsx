@@ -44,8 +44,8 @@ const HeroSection = () => {
           </div>
 
           <div className="flex flex-wrap gap-4 animate-fade-up animate-fade-in-delay-2">
-            <Button variant="gold" size="lg">Join Now</Button>
-            <Button variant="gold-outline" size="lg">Book a Consultation</Button>
+            <a href="#profile-form"><Button variant="gold" size="lg">Join Now</Button></a>
+            <a href="#profile-form"><Button variant="gold-outline" size="lg">Book a Consultation</Button></a>
           </div>
 
           {/* Stats */}
