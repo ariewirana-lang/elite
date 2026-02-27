@@ -18,18 +18,18 @@ const mediaLogos = [
 
 const FeaturedInSection = () => {
   return (
-    <section className="border-t border-border/30 bg-plum-deep py-14 px-6">
-      <div className="mx-auto max-w-7xl text-center">
-        <p className="font-heading text-xs italic tracking-[0.3em] text-muted-foreground uppercase mb-10">
+    <section className="border-t border-border/10 bg-plum-deep py-10 px-6">
+      <div className="mx-auto max-w-5xl text-center">
+        <p className="font-heading text-[10px] italic tracking-[0.35em] text-muted-foreground/60 uppercase mb-8">
           Featured In
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
+        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
           {mediaLogos.map((media) => (
             <img
               key={media.name}
               src={media.src}
               alt={media.name}
-              className="h-5 md:h-6 w-auto opacity-50 grayscale"
+              className="h-3 md:h-4 w-auto opacity-40"
             />
           ))}
         </div>
