@@ -1,11 +1,19 @@
+import bloombergLogo from "@/assets/media/bloomberg.png";
+import forbesLogo from "@/assets/media/forbes.png";
+import cnnLogo from "@/assets/media/cnn.png";
+import cnbcLogo from "@/assets/media/cnbc.png";
+import straitTimesLogo from "@/assets/media/straits-times.png";
+import businessInsiderLogo from "@/assets/media/business-insider.png";
+import bbcLogo from "@/assets/media/bbc.png";
+
 const mediaLogos = [
-  "Bloomberg",
-  "Forbes",
-  "CNN",
-  "CNBC",
-  "The Straits Times",
-  "Business Insider",
-  "BBC",
+  { name: "Bloomberg", src: bloombergLogo },
+  { name: "Forbes", src: forbesLogo },
+  { name: "CNN", src: cnnLogo },
+  { name: "CNBC", src: cnbcLogo },
+  { name: "The Straits Times", src: straitTimesLogo },
+  { name: "Business Insider", src: businessInsiderLogo },
+  { name: "BBC", src: bbcLogo },
 ];
 
 const FeaturedInSection = () => {
@@ -16,13 +24,13 @@ const FeaturedInSection = () => {
           Featured In
         </p>
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
-          {mediaLogos.map((name) => (
-            <span
-              key={name}
-              className="font-heading text-sm font-semibold text-muted-foreground/50 tracking-wide md:text-base"
-            >
-              {name}
-            </span>
+          {mediaLogos.map((media) => (
+            <img
+              key={media.name}
+              src={media.src}
+              alt={media.name}
+              className="h-5 md:h-6 w-auto opacity-50 grayscale"
+            />
           ))}
         </div>
       </div>
