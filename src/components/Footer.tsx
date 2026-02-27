@@ -1,14 +1,13 @@
-import { Heart } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
     <footer className="border-t border-border/30 bg-background px-6 py-12 lg:px-20">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between">
-          <div className="flex items-center gap-2">
-            <Heart className="h-5 w-5 text-primary" fill="currentColor" />
-            <span className="font-heading text-lg font-semibold text-foreground">Éclat</span>
-          </div>
+          <a href="#" className="flex items-center">
+            <img src={logo} alt="Logo" className="h-7" />
+          </a>
 
           <div className="flex flex-wrap justify-center gap-6">
             <a href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About</a>
