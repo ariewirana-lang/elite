@@ -18,11 +18,17 @@ const ThisIsYouSection = () => {
         <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
           This Is <span className="gold-text italic">You</span>
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-          You are successful, career-driven, and quality-oriented. You seek genuine relationships 
-          with someone who shares your values and ambition. We understand — because we serve only 
-          individuals like you.
-        </p>
+        <div className="mx-auto mt-4 max-w-2xl space-y-4 text-muted-foreground">
+          <p>
+            Intelligent, successful, and sincere. You have built a life of achievement, and now you seek a partner to share it with.
+          </p>
+          <p>
+            As Asia's first and largest lunch dating company, we provide access to an exclusive, verified database of Singapore's most eligible singles.
+          </p>
+          <p>
+            We don't simply match profiles. We curate connections based on your values, legacy, and lifestyle — to find your most compatible life partner.
+          </p>
+        </div>
 
         <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
           {profiles.map((p) => (
