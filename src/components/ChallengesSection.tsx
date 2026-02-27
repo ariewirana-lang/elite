@@ -1,10 +1,10 @@
 import { Search, Clock, Smartphone, Target } from "lucide-react";
 
 const challenges = [
-  { icon: Search, title: "Lack of Quality Matches", desc: "Traditional platforms flood you with incompatible profiles, wasting your valuable time." },
-  { icon: Clock, title: "Busy Professional Lifestyle", desc: "Your demanding career leaves little room for navigating the complexities of modern dating." },
-  { icon: Smartphone, title: "Apps Don't Work for Serious Relationships", desc: "Swipe culture promotes superficial connections rather than meaningful partnerships." },
-  { icon: Target, title: "Hard to Find Aligned Values", desc: "Finding someone who shares your ambitions, values, and vision for life is increasingly rare." },
+  { icon: Search, title: "Lack of Quality Matches", desc: "Endless swiping through hundreds of profiles without ever getting a quality response." },
+  { icon: Clock, title: "Busy Professional Lifestyle", desc: "Wasting weeks chatting only to be ghosted just as you think a connection is forming." },
+  { icon: Smartphone, title: "Apps Don't Work for Serious Relationships", desc: "Exhausting cat and mouse games and the uncertainty of whether they're even interested." },
+  { icon: Target, title: "Hard to Find Aligned Values", desc: "Complaining about the lack of eligible singles while settles for sub-par dating experiences." },
 ];
 
 const ChallengesSection = () => {
