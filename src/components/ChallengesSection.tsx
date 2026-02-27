@@ -14,11 +14,18 @@ const ChallengesSection = () => {
         <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
           Challenges in Modern <span className="gold-text italic">Dating</span>
         </h2>
-        <div className="mx-auto mt-3 max-w-lg text-muted-foreground space-y-2">
-          <p>Pubs. Clubs. Awkward moments. Dubious profiles on dating apps.</p>
-          <p>Endless swiping. Love scams.</p>
-          <p>There must be a more elegant way to meet your partner in Singapore.</p>
-          <p className="mt-4 font-heading font-semibold text-foreground">Say NO to:</p>
+        <div className="mx-auto mt-6 max-w-xl space-y-4">
+          <p className="text-base leading-relaxed text-muted-foreground tracking-wide">
+            Pubs. Clubs. Awkward moments.<br />
+            Dubious profiles on dating apps.
+          </p>
+          <p className="text-base leading-relaxed text-muted-foreground tracking-wide">
+            Endless swiping. Love scams.
+          </p>
+          <p className="mt-2 text-base leading-relaxed text-foreground/80 italic">
+            There must be a more elegant way to meet your partner in Singapore.
+          </p>
+          <p className="mt-6 font-heading text-sm font-semibold uppercase tracking-[0.2em] text-foreground">Say NO to:</p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
