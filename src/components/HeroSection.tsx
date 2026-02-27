@@ -1,74 +1,108 @@
 import heroCouple from "@/assets/hero-couple.jpg";
-import profileWoman1 from "@/assets/profile-woman-1.jpg";
-import profileMan1 from "@/assets/profile-man-1.jpg";
-import profileWoman2 from "@/assets/profile-woman-2.jpg";
-import profileMan2 from "@/assets/profile-man-2.jpg";
+import coupleStory1 from "@/assets/couple-story-1.jpg";
+import coupleStory2 from "@/assets/couple-story-2.jpg";
+import coupleStory3 from "@/assets/couple-story-3.jpg";
 import { Button } from "@/components/ui/button";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const testimonials = [
-  { name: "Sarah L.", role: "CEO, Tech Startup", img: profileWoman1, quote: "Éclat matched me with someone who truly understands ambition and love." },
-  { name: "James C.", role: "Investment Banker", img: profileMan1, quote: "A premium experience that respects your time and priorities." },
-  { name: "Elena M.", role: "Creative Director", img: profileWoman2, quote: "Finally, a matchmaking service that feels personal and exclusive." },
-  { name: "David W.", role: "Surgeon", img: profileMan2, quote: "They understood exactly what I was looking for in a partner." },
-];
-
-const stats = [
-  { value: "250+", label: "Matches" },
-  { value: "97%", label: "Satisfaction" },
-  { value: "4,500+", label: "Members" },
-  { value: "10+", label: "Years Experience" },
+  {
+    names: "Jerry & Kim",
+    img: coupleStory1,
+    quote: "I never thought that I would be that lucky to have such a nice person with me. Thank you so much to Éclat!",
+  },
+  {
+    names: "Alicia & Jioun",
+    img: coupleStory2,
+    quote: "I joined Éclat because I was looking for someone who would be my life partner and spouse.",
+  },
+  {
+    names: "Alex & Ashley",
+    img: coupleStory3,
+    quote: "Éclat's meticulous matching has led to our successful pairing! We have been a couple since we were first introduced.",
+  },
 ];
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen pt-16">
-      <div className="section-padding mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        {/* Left - Hero Image */}
-        <div className="relative animate-fade-up">
-          <div className="overflow-hidden rounded-2xl luxury-shadow">
-            <img src={heroCouple} alt="Elegant couple" className="h-[500px] w-full object-cover object-top lg:h-[600px]" />
-          </div>
-          <div className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl border border-gold/20 -z-10" />
-        </div>
-
-        {/* Right - Content */}
-        <div className="flex flex-col gap-8">
-          <div className="animate-fade-up">
+    <section className="relative min-h-screen pt-20">
+      <div className="section-padding mx-auto max-w-7xl">
+        {/* Top heading area */}
+        <div className="flex items-end justify-between mb-12 animate-fade-up">
+          <div className="max-w-2xl">
             <h1 className="font-heading text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
-              Find Love with Asia's Leading{" "}
+              Find Love with{" "}
+              <br />
+              Asia's Leading{" "}
               <span className="gold-text italic">Dating Agency</span>
             </h1>
-            <p className="mt-4 max-w-md text-lg text-muted-foreground">
-              We help successful individuals build meaningful, long-term partnerships through curated introductions.
+            <p className="mt-4 max-w-lg text-muted-foreground">
+              High-end matchmaking for Singapore's Most Eligible Singles. We celebrate the unions that define our commitment to excellence and cultural resonance.
             </p>
           </div>
-
-          <div className="flex flex-wrap gap-4 animate-fade-up animate-fade-in-delay-2">
-            <a href="#profile-form"><Button variant="gold" size="lg">Join Now</Button></a>
-            <a href="#profile-form"><Button variant="gold-outline" size="lg">Book a Consultation</Button></a>
+          <div className="hidden md:flex items-center gap-3">
+            <button className="h-10 w-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+              <ArrowLeft className="h-4 w-4" />
+            </button>
+            <button className="h-10 w-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+              <ArrowRight className="h-4 w-4" />
+            </button>
           </div>
+        </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 animate-fade-up animate-fade-in-delay-3">
-            {stats.map((s) => (
-              <div key={s.label} className="text-center">
-                <p className="font-heading text-2xl font-bold text-primary">{s.value}</p>
-                <p className="text-xs text-muted-foreground">{s.label}</p>
+        {/* Two column: featured couple + testimonials */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-fade-up animate-fade-in-delay-2">
+          {/* Left - Featured couple image with overlaid quote */}
+          <div className="relative">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src={heroCouple}
+                alt="Happy couple"
+                className="h-[500px] w-full object-cover object-top lg:h-[550px]"
+              />
+            </div>
+            {/* Overlaid quote card */}
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <div className="glass-card p-5 rounded-xl">
+                <p className="font-heading text-sm italic text-foreground leading-relaxed">
+                  "Éclat is a great platform to find someone. We are taking the date that Éclat arranged our date, to be our anniversary date!"
+                </p>
+                <div className="flex items-center justify-between mt-3">
+                  <div>
+                    <p className="text-sm font-semibold text-foreground">Jack & Joanne</p>
+                    <p className="text-xs text-muted-foreground">Matched in Singapore, 2023</p>
+                  </div>
+                  <a href="#stories" className="text-xs text-primary font-medium hover:underline">
+                    READ FULL STORY ↗
+                  </a>
+                </div>
               </div>
-            ))}
+            </div>
           </div>
 
-          {/* Testimonial cards */}
-          <div className="grid grid-cols-2 gap-3 animate-fade-up animate-fade-in-delay-4">
-            {testimonials.slice(0, 4).map((t) => (
-              <div key={t.name} className="glass-card p-3 flex items-start gap-3">
-                <img src={t.img} alt={t.name} className="h-10 w-10 rounded-full object-cover flex-shrink-0" />
-                <div className="min-w-0">
-                  <p className="text-xs text-foreground font-medium truncate">{t.name}</p>
-                  <p className="text-[10px] text-muted-foreground leading-snug line-clamp-2">{t.quote}</p>
+          {/* Right - Testimonial list */}
+          <div className="flex flex-col justify-between gap-6">
+            {testimonials.map((t) => (
+              <div key={t.names} className="flex items-start gap-4">
+                <img
+                  src={t.img}
+                  alt={t.names}
+                  className="h-16 w-16 rounded-lg object-cover flex-shrink-0"
+                />
+                <div>
+                  <h3 className="font-heading text-base font-semibold text-foreground">{t.names}</h3>
+                  <p className="text-sm text-muted-foreground italic leading-relaxed mt-1">
+                    "{t.quote}"
+                  </p>
                 </div>
               </div>
             ))}
+
+            <a href="#stories">
+              <Button variant="gold-outline" size="lg" className="w-full mt-2">
+                View All Stories
+              </Button>
+            </a>
           </div>
         </div>
       </div>
