@@ -1,7 +1,12 @@
+import laLogo from "@/assets/la-logo-white.png";
+
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border/30 bg-background/80 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-center px-6 lg:px-8">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
+        <a href="#" className="flex items-center">
+          <img src={laLogo} alt="Lunch Actually" className="h-7" />
+        </a>
         <div className="flex items-center gap-10">
           <a href="#stories" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Success Stories</a>
           <a href="#journey" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Our Process</a>
