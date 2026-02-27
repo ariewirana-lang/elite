@@ -13,7 +13,7 @@ const PersonalSignificanceSection = () => {
               <span className="gold-text italic">Personal Significance</span>
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              At Éclat, we believe that love is the most important investment you'll ever make. 
+              At Lunch Actually, we believe that love is the most important investment you'll ever make. 
               Our approach is deeply personal — we take the time to understand not just who you are, 
               but who you aspire to become alongside a partner.
             </p>

@@ -9,17 +9,17 @@ const testimonials = [
   {
     names: "Jerry & Kim",
     img: coupleStory1,
-    quote: "I never thought that I would be that lucky to have such a nice person with me. Thank you so much to Éclat!",
+    quote: "I never thought that I would be that lucky to have such a nice person with me. Thank you so much to Lunch Actually!",
   },
   {
     names: "Alicia & Jioun",
     img: coupleStory2,
-    quote: "I joined Éclat because I was looking for someone who would be my life partner and spouse.",
+    quote: "I joined Lunch Actually because I was looking for someone who would be my life partner and spouse.",
   },
   {
     names: "Alex & Ashley",
     img: coupleStory3,
-    quote: "Éclat's meticulous matching has led to our successful pairing! We have been a couple since we were first introduced.",
+    quote: "Lunch Actually's meticulous matching has led to our successful pairing! We have been a couple since we were first introduced.",
   },
 ];
 
@@ -65,7 +65,7 @@ const HeroSection = () => {
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <div className="glass-card p-5 rounded-xl">
                 <p className="font-heading text-sm italic text-foreground leading-relaxed">
-                  "Éclat is a great platform to find someone. We are taking the date that Éclat arranged our date, to be our anniversary date!"
+                  "Lunch Actually is a great platform to find someone. We are taking the date that Lunch Actually arranged our date, to be our anniversary date!"
                 </p>
                 <div className="flex items-center justify-between mt-3">
                   <div>
