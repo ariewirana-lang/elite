@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 border-t border-border/30 pt-6 text-center">
-          <p className="text-xs text-muted-foreground">© 2024 Éclat. All rights reserved. Asia's premier matchmaking agency.</p>
+          <p className="text-xs text-muted-foreground">© 2026 LUNCH ACTUALLY GROUP Matchmaking International. All rights reserved.</p>
         </div>
       </div>
     </footer>
