@@ -37,7 +37,7 @@ const ThisIsYouSection = () => {
           ))}
         </div>
 
-        <Button variant="gold-outline" size="lg" className="mt-10">See If You Qualify</Button>
+        <a href="#profile-form"><Button variant="gold-outline" size="lg" className="mt-10">See If You Qualify</Button></a>
       </div>
     </section>
   );

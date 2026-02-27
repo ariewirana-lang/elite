@@ -36,7 +36,7 @@ const JourneyStepsSection = () => {
           ))}
         </div>
 
-        <Button variant="gold" size="lg" className="mt-12">Start Your Journey</Button>
+        <a href="#profile-form"><Button variant="gold" size="lg" className="mt-12">Start Your Journey</Button></a>
       </div>
     </section>
   );
