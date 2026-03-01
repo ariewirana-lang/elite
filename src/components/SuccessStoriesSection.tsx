@@ -37,7 +37,7 @@ const SuccessStoriesSection = () => {
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {stories.map((s) => (
             <div key={s.names} className="glass-card overflow-hidden transition-all duration-300 hover:border-gold/30">
-              <img src={s.img} alt={s.names} className="h-64 w-full object-cover" />
+              <img src={s.img} alt={s.names} className="h-64 w-full object-cover transition-transform duration-500 hover:scale-105" />
               <div className="p-6 text-left">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-heading text-lg font-semibold text-foreground">{s.names}</h3>

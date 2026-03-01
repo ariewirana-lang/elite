@@ -26,10 +26,10 @@ const PersonalSignificanceSection = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <div className="overflow-hidden rounded-xl luxury-shadow">
-              <img src={significanceImg1} alt="Intimate moment" className="h-72 w-full object-cover md:h-96" />
+              <img src={significanceImg1} alt="Intimate moment" className="h-72 w-full object-cover md:h-96 transition-transform duration-500 hover:scale-105" />
             </div>
             <div className="mt-8 overflow-hidden rounded-xl luxury-shadow">
-              <img src={significanceImg2} alt="Celebrating love" className="h-72 w-full object-cover md:h-96" />
+              <img src={significanceImg2} alt="Celebrating love" className="h-72 w-full object-cover md:h-96 transition-transform duration-500 hover:scale-105" />
             </div>
           </div>
         </div>
