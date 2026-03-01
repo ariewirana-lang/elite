@@ -2,9 +2,9 @@ import { Phone, CheckCircle, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const steps = [
-  { icon: Phone, title: "Private Call", desc: "Begin with a confidential consultation to understand your preferences and relationship goals." },
-  { icon: CheckCircle, title: "Profile Verification", desc: "Our team verifies your identity and background to ensure a safe, exclusive community." },
-  { icon: Heart, title: "Curated Introductions", desc: "Receive handpicked matches and personally arranged introductions with compatible individuals." },
+  { icon: Phone, title: "Discovery Call", desc: "Book a friendly 15-min chat. Meet our experienced Dating Consultant to learn more about you and your relationship goals." },
+  { icon: CheckCircle, title: "Verified Profiles", desc: "Once you're a client, we handle the screening and ID checks for you. Our search begins immediately based on compatibility and personality." },
+  { icon: Heart, title: "Real Connections", desc: "Simply show up and enjoy your date! Let us know your feedback after each meeting so we can fine-tune your dating criteria." },
 ];
 
 const JourneyStepsSection = () => {
