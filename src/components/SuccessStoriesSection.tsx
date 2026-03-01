@@ -5,27 +5,36 @@ import coupleStory3 from "@/assets/couple-story-3.jpg";
 const stories = [
   {
     img: coupleStory1,
-    names: "Michael & Aiko",
-    year: "2023",
-    story: "A surgeon and an architect, brought together through shared values and a love for meaningful conversation. Now happily married.",
+    number: "01",
+    names: "Jack & Joanne",
+    tag: "THE FIRST SPARK",
+    quote:
+      "\"Lunch Actually is more than a platform; it's the architect of our shared future. Since there wasn't a specific date that we got together, we chose the day they arranged for us as our anniversary—the day our lives truly aligned.\"",
+    archive: "ARCHIVE: MARRIED 2022",
   },
   {
     img: coupleStory2,
-    names: "David & Mei Lin",
-    year: "2022",
-    story: "Both were too busy for traditional dating. Lunch Actually's curated approach connected them over a private dinner — the rest was destiny.",
+    number: "02",
+    names: "Terence & Kim",
+    tag: "THE VIBE",
+    quote:
+      "\"For the busy professional, time is the ultimate luxury. Their consultants understood our pace and our values, handcrafting a journey that felt effortless and inevitable.\"",
+    archive: "ARCHIVE: MARRIED 2023",
   },
   {
     img: coupleStory3,
-    names: "Ryan & Sophia",
-    year: "2024",
-    story: "Two entrepreneurs across different cities. Our matchmaker saw the potential, and within months, they were inseparable.",
+    number: "03",
+    names: "Yuhan & Jeffrey",
+    tag: "THE MAGIC",
+    quote:
+      "\"The first date that we met was the date that changed our lives forever. A magical journey began for us henceforth. We simply felt so happy and blessed to be together.\"",
+    archive: "ARCHIVE: MARRIED 2021",
   },
 ];
 
 const SuccessStoriesSection = () => {
   return (
-    <section id="stories" className="section-padding">
+    <section id="stories" className="section-padding bg-background">
       <div className="mx-auto max-w-7xl text-center">
         <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
           Chapters of <span className="gold-text italic">Connection</span>
@@ -34,19 +43,54 @@ const SuccessStoriesSection = () => {
           Real love stories from our distinguished members.
         </p>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
-          {stories.map((s) => (
-            <div key={s.names} className="glass-card overflow-hidden transition-all duration-300 hover:border-gold/30">
-              <img src={s.img} alt={s.names} className="h-64 w-full object-cover" />
-              <div className="p-6 text-left">
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-heading text-lg font-semibold text-foreground">{s.names}</h3>
-                  <span className="text-xs text-primary font-medium">{s.year}</span>
+        <div className="mt-16 flex flex-col gap-20">
+          {stories.map((s, i) => {
+            const isEven = i % 2 === 0;
+            return (
+              <div
+                key={s.names}
+                className={`flex flex-col items-center gap-8 md:flex-row md:gap-12 ${
+                  isEven ? "" : "md:flex-row-reverse"
+                }`}
+              >
+                {/* Text Side */}
+                <div
+                  className={`flex-1 text-left ${
+                    isEven
+                      ? "border-l-2 border-primary pl-6"
+                      : ""
+                  }`}
+                >
+                  <span className="font-heading text-2xl text-muted-foreground/40">
+                    {s.number}
+                  </span>
+                  <div className="mt-2 flex items-center gap-3">
+                    <h3 className="font-heading text-xl font-semibold text-foreground italic md:text-2xl">
+                      {s.names}
+                    </h3>
+                    <span className="text-[10px] font-semibold tracking-widest text-primary uppercase">
+                      {s.tag}
+                    </span>
+                  </div>
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                    {s.quote}
+                  </p>
+                  <p className="mt-4 text-[10px] font-semibold tracking-widest text-muted-foreground/60 uppercase">
+                    {s.archive}
+                  </p>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">{s.story}</p>
+
+                {/* Image Side */}
+                <div className="flex-1">
+                  <img
+                    src={s.img}
+                    alt={s.names}
+                    className="h-72 w-full rounded-sm object-cover shadow-lg md:h-80"
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
