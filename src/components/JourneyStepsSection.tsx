@@ -1,10 +1,12 @@
-import { Phone, CheckCircle, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import step1Img from "@/assets/step-1.png";
+import step2Img from "@/assets/step-2.png";
+import step3Img from "@/assets/step-3.png";
 
 const steps = [
-  { icon: Phone, title: "Private Call", desc: "Begin with a confidential consultation to understand your preferences and relationship goals." },
-  { icon: CheckCircle, title: "Profile Verification", desc: "Our team verifies your identity and background to ensure a safe, exclusive community." },
-  { icon: Heart, title: "Curated Introductions", desc: "Receive handpicked matches and personally arranged introductions with compatible individuals." },
+  { img: step1Img, title: "Private Call", desc: "Begin with a confidential consultation to understand your preferences and relationship goals." },
+  { img: step2Img, title: "Profile Verification", desc: "Our team verifies your identity and background to ensure a safe, exclusive community." },
+  { img: step3Img, title: "Curated Introductions", desc: "Receive handpicked matches and personally arranged introductions with compatible individuals." },
 ];
 
 const JourneyStepsSection = () => {
@@ -24,9 +26,7 @@ const JourneyStepsSection = () => {
 
           {steps.map((s, i) => (
             <div key={s.title} className="relative flex flex-col items-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full gold-gradient mb-6">
-                <s.icon className="h-7 w-7 text-primary-foreground" />
-              </div>
+              <img src={s.img} alt={s.title} className="h-20 w-20 mb-6 object-contain" />
               <span className="absolute top-0 right-1/2 translate-x-1/2 -translate-y-2 text-xs font-semibold text-primary">
                 Step {i + 1}
               </span>
