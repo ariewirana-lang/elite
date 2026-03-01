@@ -1,10 +1,10 @@
-import coupleStory1 from "@/assets/couple-story-1.jpg";
-import coupleStory2 from "@/assets/couple-story-2.jpg";
-import coupleStory3 from "@/assets/couple-story-3.jpg";
+import jackJoanneImg from "@/assets/jack-joanne.png";
+import terenceKimImg from "@/assets/terence-kim.png";
+import yuhanJeffreyImg from "@/assets/yuhan-jeffrey.png";
 
 const stories = [
   {
-    img: coupleStory1,
+    img: jackJoanneImg,
     number: "01",
     names: "Jack & Joanne",
     tag: "THE FIRST SPARK",
@@ -13,7 +13,7 @@ const stories = [
     archive: "ARCHIVE: MARRIED 2022",
   },
   {
-    img: coupleStory2,
+    img: terenceKimImg,
     number: "02",
     names: "Terence & Kim",
     tag: "THE VIBE",
@@ -22,7 +22,7 @@ const stories = [
     archive: "ARCHIVE: MARRIED 2023",
   },
   {
-    img: coupleStory3,
+    img: yuhanJeffreyImg,
     number: "03",
     names: "Yuhan & Jeffrey",
     tag: "THE MAGIC",
