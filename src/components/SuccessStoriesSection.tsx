@@ -85,7 +85,7 @@ const SuccessStoriesSection = () => {
                   <img
                     src={s.img}
                     alt={s.names}
-                    className="h-72 w-full rounded-sm object-cover shadow-lg md:h-80"
+                    className="w-full rounded-sm object-cover shadow-lg" style={{ aspectRatio: '568/710' }}
                   />
                 </div>
               </div>
