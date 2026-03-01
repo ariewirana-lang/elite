@@ -58,7 +58,7 @@ const HeroSection = () => {
               <img
                 src={heroCouple}
                 alt="Happy couple"
-                className="h-[500px] w-full object-cover object-top lg:h-[550px] transition-transform duration-500 hover:scale-105"
+                className="h-[500px] w-full object-cover object-top lg:h-[550px]"
               />
             </div>
             {/* Overlaid quote card */}

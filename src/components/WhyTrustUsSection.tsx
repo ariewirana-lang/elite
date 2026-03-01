@@ -38,7 +38,7 @@ const WhyTrustUsSection = () => {
 
           <div className="relative">
             <div className="overflow-hidden rounded-2xl luxury-shadow">
-              <img src={consultationImg} alt="Professional consultation" className="h-[400px] w-full object-cover lg:h-[500px] transition-transform duration-500 hover:scale-105" />
+              <img src={consultationImg} alt="Professional consultation" className="h-[400px] w-full object-cover lg:h-[500px]" />
             </div>
             <div className="absolute -bottom-4 -left-4 h-full w-full rounded-2xl border border-gold/20 -z-10" />
           </div>
