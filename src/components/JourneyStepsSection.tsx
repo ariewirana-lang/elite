@@ -27,7 +27,7 @@ const JourneyStepsSection = () => {
               <div className="flex h-16 w-16 items-center justify-center rounded-full gold-gradient mb-6">
                 <s.icon className="h-7 w-7 text-primary-foreground" />
               </div>
-              <span className="absolute top-0 right-1/2 translate-x-1/2 -translate-y-2 text-xs font-semibold text-primary">
+              <span className="absolute -top-8 right-1/2 translate-x-1/2 text-xs font-semibold text-primary">
                 Step {i + 1}
               </span>
               <h3 className="font-heading text-xl font-semibold text-foreground">{s.title}</h3>
