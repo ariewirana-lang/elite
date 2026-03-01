@@ -1,5 +1,5 @@
-import significanceImg1 from "@/assets/significance-1.jpg";
-import significanceImg2 from "@/assets/significance-2.jpg";
+import nimPoundImg from "@/assets/nim-pound.png";
+import kornChengImg from "@/assets/korn-cheng.png";
 
 const PersonalSignificanceSection = () => {
   return (
@@ -21,7 +21,7 @@ const PersonalSignificanceSection = () => {
         <div className="mt-16 flex flex-col items-center gap-8 md:flex-row md:gap-12">
           <div className="flex-1">
             <img
-              src={significanceImg1}
+              src={nimPoundImg}
               alt="Nim & Pound"
               className="h-72 w-full rounded-sm object-cover shadow-lg md:h-80"
             />
@@ -84,7 +84,7 @@ const PersonalSignificanceSection = () => {
           </div>
           <div className="flex-1">
             <img
-              src={significanceImg2}
+              src={kornChengImg}
               alt="Korn & Cheng"
               className="h-72 w-full rounded-sm object-cover shadow-lg md:h-80"
             />
