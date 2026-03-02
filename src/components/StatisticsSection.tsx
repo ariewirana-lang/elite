@@ -7,7 +7,7 @@ const industries = [
 
 const StatisticsSection = () => {
   return (
-    <section className="section-padding bg-plum-deep">
+    <section id="member-collective" className="section-padding bg-plum-deep">
       <div className="mx-auto max-w-4xl text-center">
         {/* Title */}
         <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">

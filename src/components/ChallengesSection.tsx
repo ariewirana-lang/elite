@@ -9,7 +9,7 @@ const challenges = [
 
 const ChallengesSection = () => {
   return (
-    <section className="section-padding bg-secondary/30">
+    <section id="challenges" className="section-padding bg-secondary/30">
       <div className="mx-auto max-w-7xl text-center">
         <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
           Challenges in Modern <span className="gold-text italic">Dating</span>

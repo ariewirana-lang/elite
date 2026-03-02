@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="flex items-center gap-10">
           <a href="#stories" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Success Stories</a>
           <a href="#journey" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Our Process</a>
-          <a href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Membership</a>
-          <a href="#significance" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About Us</a>
+          <a href="#member-collective" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Membership</a>
+          <a href="#challenges" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About Us</a>
           <a href="#profile-form" className="rounded-md bg-violet px-5 py-2 text-sm font-semibold text-foreground transition-opacity hover:opacity-90">
             Begin Your Story
           </a>
