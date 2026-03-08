@@ -36,7 +36,7 @@ const SuccessStoriesSection = () => {
   return (
     <section id="stories" className="section-padding bg-background">
       <div className="mx-auto max-w-7xl text-center">
-        <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
+        <h2 className="font-heading text-3xl font-extralight text-foreground md:text-5xl">
           Chapters of <span className="gold-text italic">Connection</span>
         </h2>
         <p className="mx-auto mt-3 max-w-lg text-muted-foreground">

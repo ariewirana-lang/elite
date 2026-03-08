@@ -64,7 +64,7 @@ const JoinIntakeSection = () => {
 
           {/* Right — Form */}
           <div>
-            <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+            <h2 className="font-heading text-3xl font-extralight text-foreground md:text-4xl lg:text-5xl">
               Join the Waitlist
               <br />
               for Our{" "}

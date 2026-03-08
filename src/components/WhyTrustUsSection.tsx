@@ -14,7 +14,7 @@ const WhyTrustUsSection = () => {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-primary">Say Yes to a Better Way</p>
-            <h2 className="mt-3 font-heading text-3xl font-bold text-foreground md:text-5xl">
+            <h2 className="mt-3 font-heading text-3xl font-extralight text-foreground md:text-5xl">
               Why Professionals <span className="gold-text italic">Trust Us</span>
             </h2>
             <p className="mt-4 text-muted-foreground">

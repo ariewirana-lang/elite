@@ -15,7 +15,7 @@ const ThisIsYouSection = () => {
   return (
     <section id="about" className="section-padding">
       <div className="mx-auto max-w-7xl text-center">
-        <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
+        <h2 className="font-heading text-3xl font-extralight text-foreground md:text-5xl">
           This Is <span className="gold-text italic">You</span>
         </h2>
         <div className="mx-auto mt-4 max-w-2xl space-y-4 text-muted-foreground">
