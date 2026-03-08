@@ -60,11 +60,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply bg-background text-foreground font-body font-extralight antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-body font-normal;
+    @apply font-body font-extralight;
   }
 }
 
