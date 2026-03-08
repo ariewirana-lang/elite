@@ -26,7 +26,7 @@ const LoveStoryCtaSection = () => {
 
       {/* CTA block */}
       <div className="bg-plum-deep py-20 px-6 text-center lg:py-28">
-        <h2 className="font-heading text-3xl font-bold italic text-foreground md:text-4xl lg:text-5xl leading-tight">
+        <h2 className="font-heading text-3xl font-extralight italic text-foreground md:text-4xl lg:text-5xl leading-tight">
           Your love story is the next one
           <br />
           we want to tell.

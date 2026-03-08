@@ -7,7 +7,7 @@ const PersonalSignificanceSection = () => {
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center">
-          <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
+          <h2 className="font-heading text-3xl font-extralight text-foreground md:text-5xl">
             A Journey of{" "}
             <span className="gold-text italic">Personal Significance</span>
           </h2>

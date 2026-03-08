@@ -11,7 +11,7 @@ const ProfileFormSection = () => {
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 mb-8">
               <span className="text-xs font-semibold tracking-widest text-primary uppercase">💎 Premium Matchmaking Service</span>
             </div>
-            <h2 className="font-heading text-4xl font-bold text-foreground md:text-5xl lg:text-6xl leading-tight">
+            <h2 className="font-heading text-4xl font-extralight text-foreground md:text-5xl lg:text-6xl leading-tight">
               Create Your<br />
               <span className="gold-text italic">Private</span> Profile
             </h2>

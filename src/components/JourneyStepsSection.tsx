@@ -11,7 +11,7 @@ const JourneyStepsSection = () => {
   return (
     <section id="journey" className="section-padding bg-secondary/30">
       <div className="mx-auto max-w-7xl text-center">
-        <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
+        <h2 className="font-heading text-3xl font-extralight text-foreground md:text-5xl">
           Your Journey to <span className="gold-text italic">Love</span>
         </h2>
         <p className="mx-auto mt-3 max-w-lg text-muted-foreground">

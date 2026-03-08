@@ -10,7 +10,7 @@ const StatisticsSection = () => {
     <section id="member-collective" className="section-padding bg-plum-deep">
       <div className="mx-auto max-w-4xl text-center">
         {/* Title */}
-        <h2 className="font-heading text-3xl font-bold text-foreground md:text-5xl">
+        <h2 className="font-heading text-3xl font-extralight text-foreground md:text-5xl">
           Member <span className="gold-text italic">Collective</span>
         </h2>
 
