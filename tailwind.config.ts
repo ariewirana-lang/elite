@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['"Montserrat"', 'system-ui', 'sans-serif'],
+        heading: ['"Playfair Display"', 'Georgia', 'serif'],
         body: ['"Montserrat"', 'system-ui', 'sans-serif'],
       },
       colors: {
