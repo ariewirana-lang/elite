@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Shield, BadgeCheck, Heart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const JoinIntakeSection = () => {
+  const navigate = useNavigate();
   return (
     <section id="apply" className="section-padding">
       <div className="mx-auto max-w-6xl">
@@ -82,7 +84,7 @@ const JoinIntakeSection = () => {
 
             <form
               className="mt-8 space-y-4 rounded-xl border border-border/50 bg-card/30 p-6"
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={(e) => { e.preventDefault(); navigate("/thank-you"); }}
             >
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
