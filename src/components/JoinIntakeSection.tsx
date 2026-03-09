@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Shield, BadgeCheck, Heart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const JoinIntakeSection = () => {
+  const navigate = useNavigate();
   return (
     <section id="apply" className="section-padding">
       <div className="mx-auto max-w-6xl">
