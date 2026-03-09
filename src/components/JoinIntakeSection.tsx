@@ -114,7 +114,7 @@ const JoinIntakeSection = () => {
         </div>
 
         {/* Trust Badges */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-8 text-center">
+        <div className="mt-10 flex flex-wrap items-center justify-start gap-8 text-center sm:justify-center">
           {[
             { icon: Shield, title: "Absolute Privacy", sub: "Discrete Handling of Data" },
             { icon: BadgeCheck, title: "Verified Net Worth", sub: "Peer-to-Peer Network" },
