@@ -20,15 +20,6 @@ const JoinIntakeSection = () => {
         </div>
 
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          {/* Mobile Image */}
-          <div className="relative block lg:hidden">
-            <img 
-              src="/src/assets/dinner-mob.png" 
-              alt="Dinner couple mobile" 
-              className="w-full h-48 object-cover rounded-lg"
-            />
-          </div>
-          
           {/* Left — Luxury Invitation Visual */}
           <div className="relative hidden lg:block">
             <div className="relative mx-auto max-w-sm overflow-hidden rounded-xl bg-[hsl(40,30%,96%)] p-12 shadow-2xl">
