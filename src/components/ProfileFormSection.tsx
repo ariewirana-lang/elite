@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, CheckCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const ProfileFormSection = () => {
+  const navigate = useNavigate();
   return (
     <section id="profile-form" className="section-padding">
       <div className="mx-auto max-w-6xl">
