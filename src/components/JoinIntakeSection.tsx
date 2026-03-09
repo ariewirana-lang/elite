@@ -84,7 +84,7 @@ const JoinIntakeSection = () => {
 
             <form
               className="mt-8 space-y-4 rounded-xl border border-border/50 bg-card/30 p-6"
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={(e) => { e.preventDefault(); navigate("/thank-you"); }}
             >
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
