@@ -7,7 +7,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center">
           <img src={laLogo} alt="Lunch Actually" className="h-7" />
         </a>
-        <div className="flex items-center gap-10">
+        <div className="hidden lg:flex items-center gap-10">
           <a href="#stories" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Success Stories</a>
           <a href="#journey" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Our Process</a>
           <a href="#member-collective" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Membership</a>
