@@ -44,7 +44,7 @@ const ProfileFormSection = () => {
 
           {/* Right Form */}
           <div className="glass-card luxury-shadow p-8 md:p-10">
-            <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); navigate("/thank-you"); }}>
+            <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); window.top.location.href = "https://ariewirana-lang.github.io/elite/thank-you"; }}>
               <input type="text" placeholder="Full Name" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
               <input type="email" placeholder="Email Address" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
               <input type="tel" placeholder="Mobile Number" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
