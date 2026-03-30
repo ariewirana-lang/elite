@@ -45,16 +45,16 @@ const ProfileFormSection = () => {
           {/* Right Form */}
           <div className="glass-card luxury-shadow p-8 md:p-10">
             <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); navigate("/thank-you"); }}>
-              <input type="text" placeholder="Full Name" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
-              <input type="email" placeholder="Email Address" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
-              <input type="tel" placeholder="Mobile Number" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
+              <input type="text" placeholder="Full Name" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
+              <input type="email" placeholder="Email Address" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
+              <input type="tel" placeholder="Mobile Number" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
               <div className="grid grid-cols-2 gap-4">
                 <select className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors">
                   <option value="">Gender</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                 </select>
-                <input type="number" placeholder="Age" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
+                <input type="number" placeholder="Age" className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground placeholder:text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors" />
               </div>
               <select className="w-full rounded-lg border border-border bg-secondary/50 px-4 py-3.5 text-sm text-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors">
                 <option value="">Residential Status</option>
